@@ -2,12 +2,279 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>eikon parcel starter</title>
+    <title>SUBLIME</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.typekit.net/rbc7auc.css">
+    <link rel="stylesheet" href="https://use.typekit.net/rbc7auc.css">
     <link rel="stylesheet" href="css/main.css" />
+
   </head>
   <body>
-    <h1>TEST</h1>
+
+    <header class="site-header">
+      <video class="header-video" autoplay muted loop playsinline>
+         <source src="videos/clip-label-header.mp4" type="video/mp4">
+      </video>
+      <div class="header-controls">
+        <button id="video-toggle" aria-label="Pause / Play vidéo">❚❚</button>
+      </div>
+
+
+       <div class="header-overlay" aria-hidden="true"></div>
+
+            <nav class="main-nav">
+          <a href="index.html">
+            <img src="img/disiz.png" alt="logo sublime" class="logo">
+          </a>
+          <ul class="nav-right">
+            <li class="acceuil"><a href="index.html">Accueil</a></li>
+            <li class="artistes"><a href="artistes.html">Artistes</a></li>
+            <li class="evenement"><a href="">Événements</a></li>
+            <li class="merch"><a href="https://sublimeatelier.com/">Merch</a></li>
+            <li class="contact"><a href="">Contact</a></li>
+          </ul>
+      </nav>
+
+      <div class="header-content">
+        <h1 class="site-title">Sublime</h1>
+      </div>
+    </header>
+    <main>
+      <section class="Derniers-albums">
+  <h2 class="section-header">
+    <span class="section-tittle">Derniers albums</span>
+  </h2>
+  <div class="albums-grid">
+  <a href="https://open.spotify.com/intl-fr/album/5k2kGcJwHBWckBy9aeKkGy">
+    <div class="album-card">
+      <div class="album-img-wrapper">
+        <img src="img/album-EXIT.jpg" alt="Album 1" class="album-img">
+        <div class="album-img-overlay">Écouter</div>
+      </div>
+      <div class="album-info">
+        <h3 class="album-title">EXIT</h3>
+         <p class="album-artist">Luther</p>
+       </div>
+    </div>
+  </a>
+  <a href="https://open.spotify.com/intl-fr/album/4TXF4Dd4S89zzM3VZ8DSpR">
+      <div class="album-card">
+        <div class="album-img-wrapper">
+          <img src="img/album-JAFAAR.jpg" alt="Album 2" class="album-img">
+          <div class="album-img-overlay">Écouter</div>
+        </div>
+        <div class="album-info">
+          <h3 class="album-title">JAAFAR</h3>
+          <p class="album-artist">Rounhaa</p>
+        </div>
+      </div>
+    </a>
+    <a href="https://open.spotify.com/intl-fr/album/447oYDEOpoTAmbgDKIhkZ6">
+      <div class="album-card">
+        <div class="album-img-wrapper">
+          <img src="img/album-AMOUR-Disiz.jpg" alt="Album 3" class="album-img">
+          <div class="album-img-overlay">Écouter</div>
+        </div>
+        <div class="album-info">
+          <h3 class="album-title">L'Amour</h3>
+          <p class="album-artist">Disiz</p>
+        </div>
+      </div>
+    </a>
+  </div>
+  <button class="btn" id="action-button">voir plus d'album</button>
+</section>
+
+      
+
+      <section class="Derniers-clips">
+        <h2 class="section-header">
+          <span class="section-tittle">Derniers clips</span>
+        </h2>
+ 
+  <div class="clip-grid">
+    <a href="https://www.youtube.com/watch?v=yEJrmqDS40U">
+      <div class="clip-card">
+        <div class="clip-img-wrapper" style="position: relative; aspect-ratio: 5 / 3;">
+          <img src="img/clip-ALED-luther.webp" alt="Album 1" class="clip-img" style="width: clamp(300px, 34vw, 500px); height: clamp(170px, 20vw, 300px); aspect-ratio: 5 / 3; object-fit: cover; display: block; border-radius: 6px;">
+          <div class="clip-img-overlay" style="position: absolute; top: 0; left: 0; width: clamp(300px, 34vw, 500px); height: 100%;">Regarder</div>
+        </div>
+        <div class="clip-info">
+          <h3 class="clip-title">ALED</h3>
+          <p class="clip-artist">Luther</p>
+        </div>
+      </div>
+    </a>
+    <a href="https://www.youtube.com/watch?v=eXhKgvaehSw">
+      <div class="clip-card">
+        <div class="clip-img-wrapper" style="position: relative; aspect-ratio: 5 / 3;">
+          <img src="img/Mossy-Cobblestone-Luther-2.png" alt="Album 2" class="clip-img" style="width: clamp(300px, 34vw, 500px); height: clamp(170px, 20vw, 300px); aspect-ratio: 5 / 3; object-fit: cover; display: block; border-radius: 6px;">
+          <div class="clip-img-overlay" style="position: absolute; top: 0; left: 0; width: clamp(300px, 34vw, 500px); height: 100%;">Regarder</div>
+        </div>
+        <div class="clip-info">
+          <h3 class="clip-title">MOSSY COBBLESTONE</h3>
+          <p class="clip-artist">Luther</p>
+        </div>
+      </div>
+    </a>
+    <a href="https://www.youtube.com/watch?v=U_Eez4j4M04">
+      <div class="clip-card">
+        <div class="clip-img-wrapper" style="position: relative; aspect-ratio: 5 / 3;">
+          <img src="img/clip-tonventre-disiz.jpg" alt="Album 3" class="clip-img" style="width: clamp(300px, 34vw, 500px); height: clamp(170px, 20vw, 300px); aspect-ratio: 5 / 3; object-fit: cover; display: block; border-radius: 6px;">
+          <div class="clip-img-overlay" style="position: absolute; top: 0; left: 0; width: clamp(300px, 34vw, 500px); height: 100%;">Regarder</div>
+        </div>
+        <div class="clip-info">
+          <h3 class="clip-title">Ton ventre</h3>
+          <p class="clip-artist">Disiz</p>
+        </div>
+      </div>
+    </a>
+    <a href="https://www.youtube.com/watch?v=_JnLvyWWazo">
+      <div class="clip-card">
+        <div class="clip-img-wrapper" style="position: relative; aspect-ratio: 5 / 3;">
+          <img src="img/clip-rounhaa-lovedeathrobots.jpg" alt="Album 3" class="clip-img" style="width: clamp(300px, 34vw, 500px); height: clamp(170px, 20vw, 300px); aspect-ratio: 5 / 3; object-fit: cover; display: block; border-radius: 6px;">
+          <div class="clip-img-overlay" style="position: absolute; top: 0; left: 0; width: clamp(300px, 34vw, 500px); height: 100%;">Regarder</div>
+        </div>
+        <div class="clip-info">
+          <h3 class="clip-title">LOVE DEATH ROBOTS</h3>
+          <p class="clip-artist">Rounhaa</p>
+        </div>
+      </div>
+    </a>
+    <a href="https://www.youtube.com/watch?v=p9IlritU_gE">
+      <div class="clip-card">
+        <div class="clip-img-wrapper" style="position: relative; aspect-ratio: 5 / 3;">
+          <img src="img/clip-fantom-rounhaa.jpg" alt="Album 5" class="clip-img" style="width: clamp(300px, 34vw, 500px); height: clamp(170px, 20vw, 300px); aspect-ratio: 5 / 3; object-fit: cover; display: block; border-radius: 6px;">
+          <div class="clip-img-overlay" style="position: absolute; top: 0; left: 0; width: clamp(300px, 34vw, 500px); height: 100%;">Regarder</div>
+        </div>
+        <div class="clip-info">
+          <h3 class="clip-title">Fantom</h3>
+          <p class="clip-artist">Rounhaa ft. Luhter</p>
+        </div>
+      </div>
+    </a>
+    <a href="https://www.youtube.com/watch?v=jGG0Irbr2wY">
+      <div class="clip-card">
+        <div class="clip-img-wrapper" style="position: relative; aspect-ratio: 5 / 3;">
+          <img src="img/clip-irko-amne.jpg" alt="Album 6" class="clip-img" style="width: clamp(300px, 34vw, 500px); height: clamp(170px, 20vw, 300px); aspect-ratio: 5 / 3; object-fit: cover; display: block; border-radius: 6px;">
+          <div class="clip-img-overlay" style="position: absolute; top: 0; left: 0; width: clamp(300px, 34vw, 500px); height: 100%;">Regarder</div>
+        </div>
+        <div class="clip-info">
+          <h3 class="clip-title">Irko</h3>
+          <p class="clip-artist">Amne</p>
+        </div>
+      </div>
+    </a>
+  </div>
+        <button class="btn" id="action-button">
+          voir plus de clip
+        </button>
+      </section>
+      <section class="Events">
+        <h2 class="section-header">
+          <span class="section-tittle">Event à venir</span>
+        </h2>
+        
+        <div class="events-grid">
+          <div class="event-card">
+            <div class="sublime-night" style="background-size: cover; background-position: center; background-repeat: no-repeat;">
+              <img src="img/sublime-night.jpg" alt="Event 1">
+              <div class="event-info">
+
+                  <h3>Sublime Night</h3>
+                  <p>02 Janvier 2026</p>
+
+                <p class="paragraph">Une soirée immersive où les artistes du label se produisent en live, mêlant musique, visuels et énergie brute. Chaque performance raconte une partie de l’univers du label, entre rap, électro et expérimental. Une nuit pour découvrir Sublime sous toutes ses facettes.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="event-card">
+            <div class="sublime-wave" style="background-size: cover; background-position: center; background-repeat: no-repeat;">
+              <img src="img/sublime-wave.jpg" alt="Event 2">
+              <div class="event-info">
+
+                  <h3>Sublime Wave</h3>
+                  <p>13 Juin 2026</p>
+
+                <p class="paragraph">Un événement dynamique où concerts et DJ sets se rencontrent dans une ambiance futuriste. Les artistes du label y partagent leur univers sonore et visuel. Une expérience musicale intense, pensée pour surprendre et captiver le public.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn" id="action-button">
+         prendre mes places
+        </button>
+      </section>
+
+      <section class="Team">
+  <h2 class="section-header">
+    <span class="section-tittle">La Team</span>
+  </h2>
+  <div class="team-grid">
+    <div class="team-images">
+      <img src="img/disiz copie.png" alt="Membre 1">
+      <img src="img/disiz copie.png" alt="Membre 2">
+      <img src="img/disiz copie.png" alt="Membre 3">
+    </div>
+    <div class="team-text">
+      <h3>Découvre la team Sublime</h3>
+      <p class="paragraph">
+        Sublime est un label de musique fondé par Disiz. Il réunit des artistes qui explorent différents styles, du rap à la pop, en passant par des sons plus expérimentaux. Chaque artiste apporte sa personnalité et son univers, ce qui rend le label unique dans la scène musicale actuelle.Le label publie des albums, des singles et des clips qui reflètent la créativité et l’énergie de ses artistes. Sublime cherche à créer une identité forte, où la musique et les images se mélangent pour raconter des histoires et partager des émotions.Sur ce site, vous pouvez découvrir les dernières sorties, explorer les artistes et comprendre la vision du label. Sublime est un espace dédié à la musique, à l’innovation et à l’expression artistique.     
+      </p>
+    </div>
+  </div>
+  <button class="btn" id="action-button">
+    en savoir plus
+  </button>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-top">
+    <!-- Réseaux sociaux à gauche -->
+    <div class="footer-socials">
+      <p class="footer-title-text">Suis-nous :</p>
+      <ul>
+        <a href="https://www.instagram.com/sublimetc/?hl=fr">
+          <li>Instagram</li>
+        </a> 
+        <a href="https://sublimeatelier.com/collections/all">
+          <li>Sublime Atelier</li>
+        </a>
+        <a href="https://x.com/sublimetc">
+          <li>Twitter</li>
+        </a>
+      </ul>
+    </div>
+
+    <!-- Adresse à droite -->
+    <div class="footer-address">
+      <a href="https://www.google.com/maps/place/58+Rue+de+Monceau,+75008+Paris,+France/@48.8783285,2.3019416,15z/data=!3m1!4b1!4m6!3m5!1s0x47e66fb81f4926e5:0x2e58c1635c3e337e!8m2!3d48.8783148!4d2.3122413!16s%2Fg%2F11bw43f2zd?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D">
+        <p class="footer-title-text">Adresse :</p>
+        <ul>
+          <li>58 rue de Monceau</li>
+          <li>75008 Paris</li>
+          <li>France</li>
+        </ul>
+      </a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <!-- Logo à gauche -->
+    <div class="footer-logo">
+      <img src="img/disiz.png" alt="Logo Sublime" class="logo">
+    </div>
+
+
+  </div>
+</footer>
+
+
+
+
+    </main>
+       
 
     <script src="js/main.js" type="module"></script>
   </body>
